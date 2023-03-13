@@ -16,7 +16,8 @@
     "reactstrap": "^9.0.1",
     "remixicon": "^2.5.0",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "react-router-dom": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
