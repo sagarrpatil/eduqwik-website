@@ -1,5 +1,5 @@
 .newsletter {
-  background: #17bf9e;
+  background: #beb7ff;
 
   padding: 60px;
   border-radius: 15px;
@@ -16,7 +16,7 @@
 .subscribe {
   padding: 7px 10px;
   background: #fff;
-  width: 45%;
+  /* width: 45%; */
   margin: auto;
   border-radius: 50px;
   display: flex;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-
+import Logo from '../../assests/logos.png'
 import "./footer.css";
 
 const footerQuickLinks = [
@@ -52,7 +52,7 @@ const Footer = () => {
         <Row>
           <Col lg="3" md="6" className="mb-4">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+            <img src={Logo} width={"170px"} style={{paddingTop: 14}}/>
             </h2>
 
             <div className="follows">
@@ -66,21 +66,21 @@ const Footer = () => {
 
               <span>
                 {" "}
-                <a href="facebook.com">
+                <a href="https://www.instagram.com/eduqwik/">
                   <i class="ri-instagram-line"></i>
                 </a>
               </span>
 
               <span>
                 {" "}
-                <a href="facebook.com">
+                <a href="https://www.linkedin.com/in/eduqwik/">
                   <i class="ri-linkedin-line"></i>
                 </a>
               </span>
 
               <span>
                 {" "}
-                <a href="facebook.com">
+                <a href="https://twitter.com/eduqwik">
                   <i class="ri-twitter-line"></i>
                 </a>
               </span>
@@ -114,9 +114,9 @@ const Footer = () => {
           <Col lg="3" md="6">
             <h6 className="fw-bold">Get in Touch</h6>
 
-            <p>Address: Sylhet, Bangladesh</p>
-            <p> Phone: +88 0123456789 </p>
-            <p>Email: example@gmail.com</p>
+            <p>Address: Pune, Maharashtra</p>
+            <p> Phone: +91 77700 21622 </p>
+            <p>Email: contact@eduqwik.com</p>
           </Col>
         </Row>
       </Container>

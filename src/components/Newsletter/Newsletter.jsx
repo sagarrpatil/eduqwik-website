@@ -7,12 +7,20 @@ const Newsletter = () => {
     <section>
       <Container className="newsletter">
         <Row>
-          <Col lg="12" className="text-center">
-            <h2 className="mb-4">Subscribe Our Newsletter</h2>
+          <Col lg="12" className="text-center widths">
+            <h2 className="mb-4">Login</h2>
             <div className="subscribe">
               <input type="text" placeholder="Email" />
-              <button className="btn">Subscribe</button>
             </div>
+            <br/>
+            <div className="subscribe">
+         
+              <input type="text" placeholder="Password" />
+            </div>
+            <br/>
+            <button className="btn">Login</button>
+            <br/><br/>
+            <button className="btn">Registration</button>
           </Col>
         </Row>
       </Container>

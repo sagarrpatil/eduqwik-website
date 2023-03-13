@@ -2,8 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import heroImg from "../../assests/images/hero-img1.png";
 import "./hero-section.css";
+import { useHistory } from "react-router-dom";
 
 const HeroSection = () => {
+  const history = useHistory();
   return (
     <section>
       <Container>
@@ -19,10 +21,9 @@ const HeroSection = () => {
                 quas officiis et repellat!
               </p>
             </div>
-            <div className="search">
-              <input type="text" placeholder="Search" />
-              <button className="btn">Search</button>
-            </div>
+            {/* <div className="search"> */}
+              <button onClick={()=>history.push('/login')} className="btn">Get Started</button>
+            {/* </div> */}
           </Col>
 
           <Col lg="6" md="6">

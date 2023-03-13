@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
+import Logo from '../../assests/logos.png'
 import "./header.css";
 
 const navLinks = [
@@ -13,15 +14,11 @@ const navLinks = [
   },
 
   {
-    display: "Courses",
-    url: "#",
+    display: "Login",
+    url: "login",
   },
   {
-    display: "Pages",
-    url: "#",
-  },
-  {
-    display: "Blog",
+    display: "Signup",
     url: "#",
   },
 ];
@@ -37,7 +34,8 @@ const Header = () => {
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+              {/* <i class="ri-pantone-line"></i> EduQwik */}
+              <img src={Logo} width={"170px"} style={{paddingTop: 14}}/>
             </h2>
           </div>
 
@@ -54,7 +52,7 @@ const Header = () => {
 
             <div className="nav__right">
               <p className="mb-0 d-flex align-items-center gap-2">
-                <i class="ri-phone-line"></i> +88 0123456789
+                <i class="ri-phone-line"></i> +91 77700 21622
               </p>
             </div>
           </div>

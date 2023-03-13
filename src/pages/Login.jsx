@@ -14,21 +14,14 @@ import Testimonials from "../components/Testimonial/Testimonials";
 import Newsletter from "../components/Newsletter/Newsletter";
 import Footer from "../components/Footer/Footer";
 
-const Home = () => {
+const Login = () => {
   return (
     <Fragment>
       <Header />
-      <HeroSection />
-      <CompanySection />
-      <AboutUs />
-      <Courses />
-      <ChooseUs />
-      <Features />
-      <FreeCourse />
-      <Testimonials />
+      <Newsletter />
       <Footer />
     </Fragment>
   );
 };
 
-export default Home;
+export default Login;
